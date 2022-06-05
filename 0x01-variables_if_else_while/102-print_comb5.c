@@ -7,7 +7,7 @@
  * The combination of numbers must be separated by comma, followed by a space
  * The combinations of numbers should be printed in ascending order
  * 0 1 and 1 0 are considered as the same combination of the numbers 0 and 1
- * return: 0
+ * Return: 0
  */
 int main(void)
 {

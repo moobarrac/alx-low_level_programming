@@ -2,7 +2,7 @@
 /**
  * main - main block
  * Description - Print numbers from 0 to 9
- * Always return 0
+ * Return: 0
  */
 
 int main(void)
