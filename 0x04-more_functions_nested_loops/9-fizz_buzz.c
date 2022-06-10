@@ -2,6 +2,7 @@
 
 /**
  * main - main block
+ * @void: no arg
  * Return: 0
  */
 
@@ -19,7 +20,7 @@ int main(void)
 		else if (i % 3 == 0)
 			printf("Fizz");
 		else
-			print("%d ",i);
+			print("%d", i);
 
 		if (i != 100)
 			printf(" ");
