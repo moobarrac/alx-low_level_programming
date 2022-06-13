@@ -4,6 +4,7 @@
  * *_strcpy - cpoy string to pointer
  * @dest: char type string
  * @src: char type string
+ * Return: dest
  */
 
 char *_strcpy(char *dest, char *src)
