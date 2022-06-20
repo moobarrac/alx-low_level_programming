@@ -26,7 +26,7 @@ void print_diagsums(int *a, int size)
 	i = 0;
 	while (i < sizes)
 	{
-		if (i % (size - 1) == 0 && i != (sizer - 1) && i != 0)
+		if (i % (size - 1) == 0 && i != (sizes - 1) && i != 0)
 			sum += a[i];
 		i++;
 	}
