@@ -4,6 +4,7 @@
  * _strchr - locate character in a string
  * @s: array string
  * @c: char to look for
+ * Description: locate character i n a string
  * Reutn: null if character not found
  */
 
