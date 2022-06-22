@@ -8,19 +8,17 @@
 
 int _sqrt_recursion(int n)
 {
+	helper(n, 1);
+}
+int helper(int s, int i)
+{
+	int sqr;
 
-	int helper(int s, int i)
-	{
-		int sqr;
-
-		sqr = i * i;
-		if (sqr == s)
-			return (i);
-		else if (sqr < s)
-			return (helper(s, i + 1));
-		else
-			return (-1);
-	}
-
-	return (helper(n, 1));
+	sqr = i * i;
+	if (sqr == s)
+		return (i);
+	else if (sqr < s)
+		return (helper(s, i + 1));
+	else
+		return (-1);
 }
