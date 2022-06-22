@@ -8,8 +8,6 @@
 
 int _sqrt_recursion(int n)
 {
-	return (helper(n, 1));
-
 
 	int helper(int s, int i)
 	{
@@ -23,4 +21,6 @@ int _sqrt_recursion(int n)
 		else
 			return (-1);
 	}
+
+	return (helper(n, 1));
 }
