@@ -13,21 +13,21 @@ int _sqrt_recursion(int n)
 
 /**
  * helper - help to solve the sqrt recursion
- * @n: number ot check for sqr root
+ * @s: number ot check for sqr root
  * @i: increment to compare
  * Return: sqr root or -1 if not
  */
 
 
-int helper(int n, int i)
+int helper(int s, int i)
 {
 	int sqr;
 
 	sqr = i * i;
-	if (sqr == n)
+	if (sqr == s)
 		return (i);
-	else if (sqr < n)
-		return (helper(n, i + 1));
+	else if (sqr < s)
+		return (helper(s, i + 1));
 	else
 		return (-1);
 }
