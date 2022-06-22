@@ -6,10 +6,6 @@
  * Return: sqr root or -1 if not
  */
 
-int _sqrt_recursion(int n)
-{
-	return (helper(n, 1));
-}
 int helper(int s, int i)
 {
 	int sqr;
@@ -21,4 +17,9 @@ int helper(int s, int i)
 		return (helper(s, i + 1));
 	else
 		return (-1);
+}
+
+int _sqrt_recursion(int n)
+{
+	return (helper(n, 1));
 }
