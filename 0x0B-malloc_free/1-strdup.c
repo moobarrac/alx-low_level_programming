@@ -1,0 +1,29 @@
+#include "main.h"
+#include <stdlib.h>
+
+/**
+ * *_strdup - returs apointe to a newly allocated space
+ * @str: string to copy
+ * Return: poinet to array or null
+ */
+
+char *_strdup(char *str)
+{
+	char *a;
+	int i, c;
+
+	if (str == NULL)
+		return (NULL);
+
+	for (i = 0; str[i] != '\0'; i++)
+		;
+	a = malloc(i * sizeof(*a) + 1);
+	if (a == NULL)
+		return (NULL);
+
+	for (c = 0; c < i; c++)
+		a[c] = str[c];
+	a[c] = '\0';
+
+	return (a);
+}
