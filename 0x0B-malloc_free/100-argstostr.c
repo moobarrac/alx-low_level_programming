@@ -8,7 +8,7 @@
  * Return: Null if fail, else new string
  */
 
-char *argstostr(int ac,char **av)
+char *argstostr(int ac, char **av)
 {
 	char *a, *retp;
 	int i, j, total;
