@@ -1,1 +1,1 @@
-# This is a project on C language
+# This is a project on C programming language
